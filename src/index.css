@@ -634,3 +634,87 @@ body {
 /* ...existing code... */
 /* ...existing code... */
 
+
+/* ...existing code... */
+
+/* QR Scanner Styles */
+.qr-scanner-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px dashed #dee2e6;
+}
+
+.scanner-error {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.scanner-instructions {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.scanner-instructions p {
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+.scanner-instructions p:last-child {
+  margin-bottom: 0;
+}
+
+.scanner-instructions strong {
+  color: #2c3e50;
+}
+
+/* Enhanced scan button */
+.scan-button {
+  background-color: #27ae60;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 15px 25px;
+}
+
+.scan-button:hover {
+  background-color: #219653;
+}
+
+/* Form enhancements for scanned data */
+.form-group input[readonly] {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.scanned-data-indicator {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #155724;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .qr-scanner-container {
+    padding: 0.5rem;
+  }
+  
+  .scanner-instructions {
+    font-size: 0.8rem;
+  }
+}
+
+/* ...existing code... */
